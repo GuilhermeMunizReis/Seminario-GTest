@@ -1,0 +1,3 @@
+C:\Users\Guilherme\source\repos\Seminario-GTest\Debug\gtest.pdb
+C:\Users\Guilherme\source\repos\Seminario-GTest\Debug\gtest_main.pdb
+C:\Users\Guilherme\source\repos\Seminario-GTest\Seminario-GTest\Debug\Seminari.94218032.Up2Date
