@@ -20,6 +20,17 @@ jobs:
         sudo apt-get update
         sudo apt-get install -y cmake g++  # Instala o compilador e o CMake
 
+    - name: Install Google Test
+      run: |
+        # Baixa o GTest
+        git clone https://github.com/google/googletest.git
+        cd googletest
+        mkdir build
+        cd build
+        cmake ..
+        make
+        sudo make install  # Instala GTest no sistema
+
     - name: Build project
       run: |
         mkdir -p build
