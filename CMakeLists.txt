@@ -7,12 +7,14 @@ set(CMAKE_CXX_STANDARD 14)
 include_directories(include)
 add_executable(MeuProjeto src/character.cpp src/item.cpp)
 
-# Adicione os testes
+# Adiciona o Google Test e compila apenas os testes
 enable_testing()
-find_package(GTest REQUIRED)
-include_directories(${GTEST_INCLUDE_DIRS})
+add_subdirectory(third_party/googletest)  # Caso você tenha o GTest como submódulo
+include_directories(third_party/googletest/googletest/include)
 
-add_executable(tests tests/test.cpp )
-target_link_libraries(tests ${GTEST_LIBRARIES} pthread)
+# Cria o executável de testes com os arquivos necessários
+add_executable(tests tests/test.cpp src/item.cpp src/character.cpp)
+target_link_libraries(tests gtest gtest_main pthread)
 
+# Define o comando de execução dos testes
 add_test(NAME MeuCodigoTests COMMAND tests)
