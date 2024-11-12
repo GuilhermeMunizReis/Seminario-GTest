@@ -1,3 +1,6 @@
 C:\Users\Guilherme\source\repos\Seminario-GTest\Debug\gtest.pdb
 C:\Users\Guilherme\source\repos\Seminario-GTest\Debug\gtest_main.pdb
 C:\Users\Guilherme\source\repos\Seminario-GTest\Seminario-GTest\Debug\Seminari.94218032.Up2Date
+C:\Users\usuario\Desktop\C214-2-G\Seminario-GTest\Debug\gtest.pdb
+C:\Users\usuario\Desktop\C214-2-G\Seminario-GTest\Debug\gtest_main.pdb
+C:\Users\usuario\Desktop\C214-2-G\Seminario-GTest\Seminario-GTest\Debug\Seminari.94218032.Up2Date
