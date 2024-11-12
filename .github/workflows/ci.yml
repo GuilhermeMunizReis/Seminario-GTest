@@ -27,7 +27,10 @@ jobs:
           cmake ..
           make
           sudo cp lib/*.a /usr/lib
-
+          
+      - name: Clean previous build cache
+        run: rm -rf build
+        
       - name: Create build directory
         run: mkdir -p build
 
