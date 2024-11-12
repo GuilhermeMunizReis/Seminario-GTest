@@ -29,6 +29,7 @@ jobs:
           cd /usr/src/gtest
           sudo cmake .
           sudo make
+          ls -la # Verifique se os arquivos libgtest.a e libgtest_main.a existem
           sudo cp *.a /usr/lib
 
       - name: Create build directory
