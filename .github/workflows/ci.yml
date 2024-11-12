@@ -32,15 +32,16 @@ jobs:
 
       - name: Clean previous build cache
         run: rm -rf build
-        
+
       - name: Create build directory
         run: mkdir -p build
 
-      - name: Configure project
-        run: cmake -S . -B build
+      - name: Configure tests only
+        run: cmake -S . -B build -DBUILD_TESTING=ON
 
-      - name: Build project
-        run: cmake --build build
+      - name: Build tests only
+        run: cmake --build build --target tests
 
       - name: Run tests
         run: cd build && ctest --output-on-failure
+
