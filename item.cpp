@@ -1,12 +1,16 @@
 #include <string>
 
-#include "item.h"
-
 using namespace std;
 
-Item::Item(const string& name) : name(name) {}
+class Item {
+public:
+	Item(const string& name) : name(name) {}
+	const string& Item::getName()
+	{
+		return name;
+	}
+private:
+	string name;
+};
 
-const string& Item::getName()
-{
-	return name;
-}
+
