@@ -12,6 +12,9 @@ enable_testing()
 # Inclui o diretório de cabeçalhos do Google Test
 include_directories(third_party/googletest/googletest/include)
 
+# Adiciona o Google Test como subdiretório
+add_subdirectory(third_party/googletest/googletest)
+
 
 # Cria o executável de testes com os arquivos necessários
 add_executable(tests tests/test.cpp)
