@@ -42,3 +42,23 @@ jobs:
       run: |
         cd build
         ctest --output-on-failure  # Executa testes usando CTest e mostra saídas de erros
+
+    - name: Run Tests and Generate Report
+      run: |
+        mkdir -p reports
+        ./build/test_binary --gtest_output=xml:reports/test_results.xml
+
+    - name: Upload Test Results
+      if: always()
+      uses: actions/upload-artifact@v3
+      with:
+        name: test-results
+        path: reports/test_results.xml
+
+    - name: Publish Test Results to GitHub
+      if: always()
+      uses: dorny/test-reporter@v1
+      with:
+        name: Google Test
+        path: reports/test_results.xml
+        reporter: junit
