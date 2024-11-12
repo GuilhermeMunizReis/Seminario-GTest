@@ -1,13 +1,18 @@
-cmake_minimum_required (VERSION 3.13)
-project (Seminario-GTest)
+cmake_minimum_required(VERSION 3.10)
+project(MyProject)
 
-set(CMAKE_CXX_STANDARD 17)
-set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -O3 -g")
+# Encontra o GoogleTest (assumindo que ele está instalado no sistema)
+find_package(GTest REQUIRED)
 
+# Adiciona todos os arquivos fonte no diretório atual
+file(GLOB SOURCES "*.cpp")
 
-set(tool_dest "bin")
-set(lib_dest "lib")
-set(include_dest "include/${PROJECT_NAME}")
+# Cria o executável para testes
+add_executable(runTests ${SOURCES})
 
-add_subdirectory(src)
-add_subdirectory(test)
+# Liga o GTest ao executável
+target_link_libraries(runTests GTest::GTest GTest::Main)
+
+# Adiciona o executável como um teste CMake
+enable_testing()
+add_test(NAME MyTests COMMAND runTests)
