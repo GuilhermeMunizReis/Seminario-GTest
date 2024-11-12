@@ -13,7 +13,7 @@ add_subdirectory(third_party/googletest)  # Caso você tenha o GTest como submó
 include_directories(third_party/googletest/googletest/include)
 
 # Cria o executável de testes com os arquivos necessários
-add_executable(tests tests/test.cpp src/item.cpp src/character.cpp)
+add_executable(tests tests/test.cpp)
 target_link_libraries(tests gtest gtest_main pthread)
 
 # Define o comando de execução dos testes
