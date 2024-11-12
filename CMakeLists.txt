@@ -9,7 +9,6 @@ add_executable(MeuProjeto src/character.cpp src/item.cpp)
 
 # Adiciona o Google Test e compila apenas os testes
 enable_testing()
-add_subdirectory(third_party/googletest)  # Caso você tenha o GTest como submódulo
 include_directories(third_party/googletest/googletest/include)
 
 # Cria o executável de testes com os arquivos necessários

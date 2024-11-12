@@ -1,0 +1,20 @@
+[
+{
+  "directory": "C:/Users/Guilherme/source/repos/Seminario-GTest/build",
+  "command": "C:\\PROGRA~2\\Falcon\\MinGW\\bin\\G__~1.EXE  @CMakeFiles/MeuProjeto.dir/includes_CXX.rsp -g -std=gnu++0x -o CMakeFiles\\MeuProjeto.dir\\src\\character.cpp.obj -c C:\\Users\\Guilherme\\source\\repos\\Seminario-GTest\\src\\character.cpp",
+  "file": "C:/Users/Guilherme/source/repos/Seminario-GTest/src/character.cpp",
+  "output": "CMakeFiles/MeuProjeto.dir/src/character.cpp.obj"
+},
+{
+  "directory": "C:/Users/Guilherme/source/repos/Seminario-GTest/build",
+  "command": "C:\\PROGRA~2\\Falcon\\MinGW\\bin\\G__~1.EXE  @CMakeFiles/MeuProjeto.dir/includes_CXX.rsp -g -std=gnu++0x -o CMakeFiles\\MeuProjeto.dir\\src\\item.cpp.obj -c C:\\Users\\Guilherme\\source\\repos\\Seminario-GTest\\src\\item.cpp",
+  "file": "C:/Users/Guilherme/source/repos/Seminario-GTest/src/item.cpp",
+  "output": "CMakeFiles/MeuProjeto.dir/src/item.cpp.obj"
+},
+{
+  "directory": "C:/Users/Guilherme/source/repos/Seminario-GTest/build",
+  "command": "C:\\PROGRA~2\\Falcon\\MinGW\\bin\\G__~1.EXE  @CMakeFiles/tests.dir/includes_CXX.rsp -g -std=gnu++0x -o CMakeFiles\\tests.dir\\tests\\test.cpp.obj -c C:\\Users\\Guilherme\\source\\repos\\Seminario-GTest\\tests\\test.cpp",
+  "file": "C:/Users/Guilherme/source/repos/Seminario-GTest/tests/test.cpp",
+  "output": "CMakeFiles/tests.dir/tests/test.cpp.obj"
+}
+]
