@@ -1,5 +1,0 @@
-C:/Users/Guilherme/source/repos/Seminario-GTest/build/CMakeFiles/MeuProjeto.dir
-C:/Users/Guilherme/source/repos/Seminario-GTest/build/CMakeFiles/tests.dir
-C:/Users/Guilherme/source/repos/Seminario-GTest/build/CMakeFiles/test.dir
-C:/Users/Guilherme/source/repos/Seminario-GTest/build/CMakeFiles/edit_cache.dir
-C:/Users/Guilherme/source/repos/Seminario-GTest/build/CMakeFiles/rebuild_cache.dir
