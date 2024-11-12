@@ -5,7 +5,7 @@ using namespace std;
 class Item {
 public:
 	Item(const string& name) : name(name) {}
-	const string& Item::getName()
+	const string& getName()
 	{
 		return name;
 	}

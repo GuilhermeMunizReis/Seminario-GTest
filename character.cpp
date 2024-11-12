@@ -6,16 +6,16 @@ class Character {
 public:
 	Character(const string& name, int health) : name(name), health(health) {}
 	
-	const string& Character::getName()
+	const string& getName()
 	{
 		return name;
 	}
 
-	int Character::getHealth() {
+	int getHealth() {
 		return health;
 	}
 
-	void Character::takeDamage(int damage) {
+	void takeDamage(int damage) {
 		health -= damage;
 	}
 
