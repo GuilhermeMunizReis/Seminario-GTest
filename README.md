@@ -26,3 +26,5 @@ Este repositório contém um projeto de testes utilizando o **Google Test** (GTe
 4. Selecione a opção **Google Test** e instale a extensão necessária. Com isso, o Google Test estará pronto para ser utilizado no seu projeto!
 
 ---
+
+[![Build and Test](https://github.com/GuilhermeMunizReis/Seminario-GTest/actions/workflows/ci.yml/badge.svg)](https://github.com/GuilhermeMunizReis/Seminario-GTest/actions/workflows/ci.yml)
