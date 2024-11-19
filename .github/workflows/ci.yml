@@ -54,11 +54,3 @@ jobs:
       with:
         name: test-results
         path: reports/test_results.xml
-  
-    - name: Publish Test Results to GitHub
-      if: always()
-      uses: dorny/test-reporter@v1
-      with:
-        name: Google Test
-        path: reports/test_results.xml
-        reporter: junit-xml
