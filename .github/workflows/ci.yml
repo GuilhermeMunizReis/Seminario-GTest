@@ -43,12 +43,10 @@ jobs:
         cd build
         ctest --output-on-failure  # Executa testes usando CTest e mostra saídas de erros
 
-
-
     - name: Run Tests and Generate Report
       run: |
         mkdir -p reports
-        ./build/test_binary --gtest_output=xml:reports/test_results.xml
+        ./build/runTests --gtest_output=xml:reports/test_results.xml
   
     - name: Upload Test Results
       if: always()
