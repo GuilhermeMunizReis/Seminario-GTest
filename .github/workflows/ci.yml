@@ -61,4 +61,4 @@ jobs:
       with:
         name: Google Test
         path: reports/test_results.xml
-        reporter: junit
+        reporter: junit-xml
