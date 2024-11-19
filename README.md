@@ -22,7 +22,8 @@ Este repositório contém um projeto de testes utilizando o **Google Test** (GTe
 
 3. Na tela seguinte, procure por **"Google Test"**:
 
-   ![Busca por Google Test](![gtest](https://github.com/user-attachments/assets/d1275c94-26db-42eb-bed3-a46178910207))
+![gtest](https://github.com/user-attachments/assets/e527c322-289c-4e4d-b8f7-4a30350d5345)
+
 
 4. Selecione a opção **Google Test** e instale a extensão necessária. Com isso, o Google Test estará pronto para ser utilizado no seu projeto!
 
