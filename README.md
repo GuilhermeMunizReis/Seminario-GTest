@@ -17,11 +17,13 @@ Este repositório contém um projeto de testes utilizando o **Google Test** (GTe
 
 2. Após a instalação, abra o Visual Studio e selecione a opção **"Create a new project"**:
    
-   ![Criar um novo projeto no Visual Studio](https://github.com/user-attachments/assets/46d449d2-11b0-40f6-83e9-37820ba95b2f)
+  ![test1](https://github.com/user-attachments/assets/6ef8df3a-b5cc-4129-b502-4517f02aa21f)
+
 
 3. Na tela seguinte, procure por **"Google Test"**:
 
-   ![Busca por Google Test](https://github.com/user-attachments/assets/c38b50e8-4c6f-437e-9e8a-a4f7ae257240)
+![gtest](https://github.com/user-attachments/assets/e527c322-289c-4e4d-b8f7-4a30350d5345)
+
 
 4. Selecione a opção **Google Test** e instale a extensão necessária. Com isso, o Google Test estará pronto para ser utilizado no seu projeto!
 
